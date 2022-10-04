@@ -1,0 +1,78 @@
+D:\PROJET\Picos Wallet\Picos_Wallet\Picos_Wallet\obj\x86\Debug\Picos_Wallet.Form1.resources
+D:\PROJET\Picos Wallet\Picos_Wallet\Picos_Wallet\obj\x86\Debug\Picos_Wallet.Resources.resources
+D:\PROJET\Picos Wallet\Picos_Wallet\Picos_Wallet\obj\x86\Debug\Picos_Wallet.vbproj.GenerateResource.Cache
+D:\PROJET\Picos Wallet\Picos_Wallet\Picos_Wallet\obj\x86\Debug\Picos_Wallet.connexion.resources
+D:\PROJET\Picos Wallet\Picos_Wallet\Picos_Wallet\obj\x86\Debug\Picos_Wallet.ajoutUser.resources
+D:\PROJET\Picos Wallet\Picos_Wallet\Picos_Wallet\obj\x86\Debug\Picos_Wallet.MenuPrincipal.resources
+D:\PROJET\Picos Wallet\Picos_Wallet\Picos_Wallet\bin\Debug\Picos Wallet.exe.config
+D:\PROJET\Picos Wallet\Picos_Wallet\Picos_Wallet\bin\Debug\Picos Wallet.exe
+D:\PROJET\Picos Wallet\Picos_Wallet\Picos_Wallet\bin\Debug\Picos Wallet.pdb
+D:\PROJET\Picos Wallet\Picos_Wallet\Picos_Wallet\bin\Debug\Picos Wallet.xml
+D:\PROJET\Picos Wallet\Picos_Wallet\Picos_Wallet\obj\x86\Debug\Picos_Wallet.listePtf.resources
+D:\PROJET\Picos Wallet\Picos_Wallet\Picos_Wallet\obj\x86\Debug\Picos_Wallet.newPtf.resources
+D:\PROJET\Picos Wallet\Picos_Wallet\Picos_Wallet\obj\x86\Debug\Picos Wallet.exe
+D:\PROJET\Picos Wallet\Picos_Wallet\Picos_Wallet\obj\x86\Debug\Picos Wallet.xml
+D:\PROJET\Picos Wallet\Picos_Wallet\Picos_Wallet\obj\x86\Debug\Picos Wallet.pdb
+D:\PROJET\Picos Wallet\Picos_Wallet\Picos_Wallet\obj\x86\Debug\Picos_Wallet.newTst.resources
+D:\PROJET\Picos Wallet\Picos_Wallet\Picos_Wallet\obj\x86\Debug\Picos_Wallet.newDevise.resources
+D:\PROJET\Picos Wallet\Picos_Wallet\Picos_Wallet\obj\x86\Debug\Picos_Wallet.newTypeTrans.resources
+D:\PROJET\Picos Wallet\Picos_Wallet\Picos_Wallet\obj\x86\Debug\Picos_Wallet.listeLib.resources
+D:\PROJET\Picos Wallet\Picos_Wallet\Picos_Wallet\obj\x86\Debug\Picos_Wallet.listDvs.resources
+E:\Files\PROJET\Picos Wallet\Picos_Wallet\Picos_Wallet\bin\Debug\Picos Wallet.exe.config
+E:\Files\PROJET\Picos Wallet\Picos_Wallet\Picos_Wallet\obj\x86\Debug\Picos Wallet.exe
+E:\Files\PROJET\Picos Wallet\Picos_Wallet\Picos_Wallet\obj\x86\Debug\Picos Wallet.xml
+E:\Files\PROJET\Picos Wallet\Picos_Wallet\Picos_Wallet\obj\x86\Debug\Picos Wallet.pdb
+E:\Files\PROJET\Picos Wallet\Picos_Wallet\Picos_Wallet\bin\Debug\Picos Wallet.exe
+E:\Files\PROJET\Picos Wallet\Picos_Wallet\Picos_Wallet\bin\Debug\Picos Wallet.pdb
+E:\Files\PROJET\Picos Wallet\Picos_Wallet\Picos_Wallet\bin\Debug\Picos Wallet.xml
+E:\Files\PROJET\Picos Wallet\Picos_Wallet\Picos_Wallet\obj\x86\Debug\Picos_Wallet.vbprojResolveAssemblyReference.cache
+E:\Files\PROJET\Picos Wallet\Picos_Wallet\Picos_Wallet\obj\x86\Debug\Picos_Wallet.ajoutUser.resources
+E:\Files\PROJET\Picos Wallet\Picos_Wallet\Picos_Wallet\obj\x86\Debug\Picos_Wallet.connexion.resources
+E:\Files\PROJET\Picos Wallet\Picos_Wallet\Picos_Wallet\obj\x86\Debug\Picos_Wallet.Form1.resources
+E:\Files\PROJET\Picos Wallet\Picos_Wallet\Picos_Wallet\obj\x86\Debug\Picos_Wallet.listDvs.resources
+E:\Files\PROJET\Picos Wallet\Picos_Wallet\Picos_Wallet\obj\x86\Debug\Picos_Wallet.listeLib.resources
+E:\Files\PROJET\Picos Wallet\Picos_Wallet\Picos_Wallet\obj\x86\Debug\Picos_Wallet.listePtf.resources
+E:\Files\PROJET\Picos Wallet\Picos_Wallet\Picos_Wallet\obj\x86\Debug\Picos_Wallet.MenuPrincipal.resources
+E:\Files\PROJET\Picos Wallet\Picos_Wallet\Picos_Wallet\obj\x86\Debug\Picos_Wallet.Resources.resources
+E:\Files\PROJET\Picos Wallet\Picos_Wallet\Picos_Wallet\obj\x86\Debug\Picos_Wallet.newDevise.resources
+E:\Files\PROJET\Picos Wallet\Picos_Wallet\Picos_Wallet\obj\x86\Debug\Picos_Wallet.newPtf.resources
+E:\Files\PROJET\Picos Wallet\Picos_Wallet\Picos_Wallet\obj\x86\Debug\Picos_Wallet.newTst.resources
+E:\Files\PROJET\Picos Wallet\Picos_Wallet\Picos_Wallet\obj\x86\Debug\Picos_Wallet.newTypeTrans.resources
+E:\Files\PROJET\Picos Wallet\Picos_Wallet\Picos_Wallet\obj\x86\Debug\Picos_Wallet.vbproj.GenerateResource.Cache
+E:\Files\PROJET\Picos Wallet\Picos_Wallet\Picos_Wallet\obj\x86\Debug\Picos_Wallet.AboutBox1.resources
+E:\Files\PROJET\Picos Wallet\Picos_Wallet\Picos_Wallet\bin\Debug\Picos Wallet.exe.manifest
+E:\Files\PROJET\Picos Wallet\Picos_Wallet\Picos_Wallet\bin\Debug\Picos Wallet.application
+E:\Files\PROJET\Picos Wallet\Picos_Wallet\Picos_Wallet\obj\x86\Debug\Picos Wallet.exe.manifest
+E:\Files\PROJET\Picos Wallet\Picos_Wallet\Picos_Wallet\obj\x86\Debug\Picos Wallet.application
+E:\Files\SYNTHESE\PROJET\PW\Picos Wallet\Picos_Wallet\Picos_Wallet\bin\Debug\Picos Wallet.exe.config
+E:\Files\SYNTHESE\PROJET\PW\Picos Wallet\Picos_Wallet\Picos_Wallet\obj\x86\Debug\Picos Wallet.exe
+E:\Files\SYNTHESE\PROJET\PW\Picos Wallet\Picos_Wallet\Picos_Wallet\obj\x86\Debug\Picos Wallet.xml
+E:\Files\SYNTHESE\PROJET\PW\Picos Wallet\Picos_Wallet\Picos_Wallet\obj\x86\Debug\Picos Wallet.pdb
+E:\Files\SYNTHESE\PROJET\PW\Picos Wallet\Picos_Wallet\Picos_Wallet\bin\Debug\Picos Wallet.exe.manifest
+E:\Files\SYNTHESE\PROJET\PW\Picos Wallet\Picos_Wallet\Picos_Wallet\bin\Debug\Picos Wallet.application
+E:\Files\SYNTHESE\PROJET\PW\Picos Wallet\Picos_Wallet\Picos_Wallet\bin\Debug\Picos Wallet.exe
+E:\Files\SYNTHESE\PROJET\PW\Picos Wallet\Picos_Wallet\Picos_Wallet\bin\Debug\Picos Wallet.pdb
+E:\Files\SYNTHESE\PROJET\PW\Picos Wallet\Picos_Wallet\Picos_Wallet\bin\Debug\Picos Wallet.xml
+E:\Files\SYNTHESE\PROJET\PW\Picos Wallet\Picos_Wallet\Picos_Wallet\obj\x86\Debug\Picos_Wallet.vbprojResolveAssemblyReference.cache
+E:\Files\SYNTHESE\PROJET\PW\Picos Wallet\Picos_Wallet\Picos_Wallet\obj\x86\Debug\Picos_Wallet.AboutBox1.resources
+E:\Files\SYNTHESE\PROJET\PW\Picos Wallet\Picos_Wallet\Picos_Wallet\obj\x86\Debug\Picos_Wallet.ajoutUser.resources
+E:\Files\SYNTHESE\PROJET\PW\Picos Wallet\Picos_Wallet\Picos_Wallet\obj\x86\Debug\Picos_Wallet.connexion.resources
+E:\Files\SYNTHESE\PROJET\PW\Picos Wallet\Picos_Wallet\Picos_Wallet\obj\x86\Debug\Picos_Wallet.Form1.resources
+E:\Files\SYNTHESE\PROJET\PW\Picos Wallet\Picos_Wallet\Picos_Wallet\obj\x86\Debug\Picos_Wallet.listDvs.resources
+E:\Files\SYNTHESE\PROJET\PW\Picos Wallet\Picos_Wallet\Picos_Wallet\obj\x86\Debug\Picos_Wallet.listeLib.resources
+E:\Files\SYNTHESE\PROJET\PW\Picos Wallet\Picos_Wallet\Picos_Wallet\obj\x86\Debug\Picos_Wallet.listePtf.resources
+E:\Files\SYNTHESE\PROJET\PW\Picos Wallet\Picos_Wallet\Picos_Wallet\obj\x86\Debug\Picos_Wallet.MenuPrincipal.resources
+E:\Files\SYNTHESE\PROJET\PW\Picos Wallet\Picos_Wallet\Picos_Wallet\obj\x86\Debug\Picos_Wallet.Resources.resources
+E:\Files\SYNTHESE\PROJET\PW\Picos Wallet\Picos_Wallet\Picos_Wallet\obj\x86\Debug\Picos_Wallet.newDevise.resources
+E:\Files\SYNTHESE\PROJET\PW\Picos Wallet\Picos_Wallet\Picos_Wallet\obj\x86\Debug\Picos_Wallet.newPtf.resources
+E:\Files\SYNTHESE\PROJET\PW\Picos Wallet\Picos_Wallet\Picos_Wallet\obj\x86\Debug\Picos_Wallet.newTst.resources
+E:\Files\SYNTHESE\PROJET\PW\Picos Wallet\Picos_Wallet\Picos_Wallet\obj\x86\Debug\Picos_Wallet.newTypeTrans.resources
+E:\Files\SYNTHESE\PROJET\PW\Picos Wallet\Picos_Wallet\Picos_Wallet\obj\x86\Debug\Picos_Wallet.vbproj.GenerateResource.Cache
+E:\Files\SYNTHESE\PROJET\PW\Picos Wallet\Picos_Wallet\Picos_Wallet\obj\x86\Debug\Picos Wallet.exe.manifest
+E:\Files\SYNTHESE\PROJET\PW\Picos Wallet\Picos_Wallet\Picos_Wallet\obj\x86\Debug\Picos Wallet.application
+E:\Files\SYNTHESE\PROJET\PW\Picos Wallet\Picos_Wallet\Picos_Wallet\obj\x86\Debug\RdlCompile.cache
+E:\Files\SYNTHESE\PROJET\PW\Picos Wallet\Picos_Wallet\Picos_Wallet\obj\x86\Debug\RdlCompile.compiled
+E:\Files\SYNTHESE\PROJET\PW\Picos Wallet\Picos_Wallet\Picos_Wallet\obj\x86\Debug\Picos_Wallet.edituser.resources
+E:\Files\SYNTHESE\PROJET\PW\Picos Wallet\Picos_Wallet\Picos_Wallet\obj\x86\Debug\Picos_Wallet.fdepenses.resources
+E:\Files\SYNTHESE\PROJET\PW\Picos Wallet\Picos_Wallet\Picos_Wallet\obj\x86\Debug\Picos_Wallet.frevenus.resources
+E:\Files\SYNTHESE\PROJET\PW\Picos Wallet\Picos_Wallet\Picos_Wallet\obj\x86\Debug\Picos_Wallet.ftoutes.resources

@@ -1,0 +1,594 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" DefaultTargets="Build" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <PropertyGroup>
+    <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
+    <Platform Condition=" '$(Platform)' == '' ">x86</Platform>
+    <ProductVersion>
+    </ProductVersion>
+    <SchemaVersion>2.0</SchemaVersion>
+    <ProjectGuid>{4751A067-8012-4538-932C-D349A6FE6159}</ProjectGuid>
+    <OutputType>WinExe</OutputType>
+    <StartupObject>Picos_Wallet.My.MyApplication</StartupObject>
+    <RootNamespace>Picos_Wallet</RootNamespace>
+    <AssemblyName>Picos Wallet</AssemblyName>
+    <FileAlignment>512</FileAlignment>
+    <MyType>WindowsForms</MyType>
+    <TargetFrameworkVersion>v4.0</TargetFrameworkVersion>
+    <TargetFrameworkProfile>Client</TargetFrameworkProfile>
+    <IsWebBootstrapper>false</IsWebBootstrapper>
+    <PublishUrl>E:\Executables\PW\</PublishUrl>
+    <Install>true</Install>
+    <InstallFrom>Disk</InstallFrom>
+    <UpdateEnabled>false</UpdateEnabled>
+    <UpdateMode>Foreground</UpdateMode>
+    <UpdateInterval>7</UpdateInterval>
+    <UpdateIntervalUnits>Days</UpdateIntervalUnits>
+    <UpdatePeriodically>false</UpdatePeriodically>
+    <UpdateRequired>false</UpdateRequired>
+    <MapFileExtensions>true</MapFileExtensions>
+    <ApplicationRevision>2</ApplicationRevision>
+    <ApplicationVersion>1.0.0.%2a</ApplicationVersion>
+    <UseApplicationTrust>false</UseApplicationTrust>
+    <PublishWizardCompleted>true</PublishWizardCompleted>
+    <BootstrapperEnabled>true</BootstrapperEnabled>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|x86' ">
+    <PlatformTarget>x86</PlatformTarget>
+    <DebugSymbols>true</DebugSymbols>
+    <DebugType>full</DebugType>
+    <DefineDebug>true</DefineDebug>
+    <DefineTrace>true</DefineTrace>
+    <OutputPath>bin\Debug\</OutputPath>
+    <DocumentationFile>Picos Wallet.xml</DocumentationFile>
+    <NoWarn>42016,41999,42017,42018,42019,42032,42036,42020,42021,42022</NoWarn>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|x86' ">
+    <PlatformTarget>x86</PlatformTarget>
+    <DebugType>pdbonly</DebugType>
+    <DefineDebug>false</DefineDebug>
+    <DefineTrace>true</DefineTrace>
+    <Optimize>true</Optimize>
+    <OutputPath>bin\Release\</OutputPath>
+    <DocumentationFile>Picos Wallet.xml</DocumentationFile>
+    <NoWarn>42016,41999,42017,42018,42019,42032,42036,42020,42021,42022</NoWarn>
+  </PropertyGroup>
+  <PropertyGroup>
+    <OptionExplicit>On</OptionExplicit>
+  </PropertyGroup>
+  <PropertyGroup>
+    <OptionCompare>Binary</OptionCompare>
+  </PropertyGroup>
+  <PropertyGroup>
+    <OptionStrict>Off</OptionStrict>
+  </PropertyGroup>
+  <PropertyGroup>
+    <OptionInfer>On</OptionInfer>
+  </PropertyGroup>
+  <PropertyGroup>
+    <ApplicationIcon>wallet.ico</ApplicationIcon>
+  </PropertyGroup>
+  <PropertyGroup>
+    <ManifestCertificateThumbprint>F92F02AFD791D16E539859F06513BDB6332754DD</ManifestCertificateThumbprint>
+  </PropertyGroup>
+  <PropertyGroup>
+    <ManifestKeyFile>Picos_Wallet_TemporaryKey.pfx</ManifestKeyFile>
+  </PropertyGroup>
+  <PropertyGroup>
+    <GenerateManifests>true</GenerateManifests>
+  </PropertyGroup>
+  <PropertyGroup>
+    <SignManifests>true</SignManifests>
+  </PropertyGroup>
+  <ItemGroup>
+    <Reference Include="Microsoft.ReportViewer.WinForms, Version=10.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a, processorArchitecture=MSIL" />
+    <Reference Include="MySql.Data, Version=6.3.5.0, Culture=neutral, PublicKeyToken=c5687fc88969c44d, processorArchitecture=MSIL" />
+    <Reference Include="System" />
+    <Reference Include="System.Data" />
+    <Reference Include="System.Deployment" />
+    <Reference Include="System.Drawing" />
+    <Reference Include="System.Web.Services" />
+    <Reference Include="System.Windows.Forms" />
+    <Reference Include="System.Xml" />
+    <Reference Include="System.Core" />
+    <Reference Include="System.Xml.Linq" />
+    <Reference Include="System.Data.DataSetExtensions" />
+  </ItemGroup>
+  <ItemGroup>
+    <Import Include="Microsoft.VisualBasic" />
+    <Import Include="System" />
+    <Import Include="System.Collections" />
+    <Import Include="System.Collections.Generic" />
+    <Import Include="System.Data" />
+    <Import Include="System.Drawing" />
+    <Import Include="System.Diagnostics" />
+    <Import Include="System.Windows.Forms" />
+    <Import Include="System.Linq" />
+    <Import Include="System.Xml.Linq" />
+  </ItemGroup>
+  <ItemGroup>
+    <Compile Include="AboutBox1.Designer.vb">
+      <DependentUpon>AboutBox1.vb</DependentUpon>
+    </Compile>
+    <Compile Include="AboutBox1.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="ajoutUser.Designer.vb">
+      <DependentUpon>ajoutUser.vb</DependentUpon>
+    </Compile>
+    <Compile Include="ajoutUser.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="cat1.Designer.vb">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>cat1.xsd</DependentUpon>
+    </Compile>
+    <Compile Include="categories.Designer.vb">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>categories.xsd</DependentUpon>
+    </Compile>
+    <Compile Include="connexion.Designer.vb">
+      <DependentUpon>connexion.vb</DependentUpon>
+    </Compile>
+    <Compile Include="connexion.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="DataSet1.Designer.vb">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>DataSet1.xsd</DependentUpon>
+    </Compile>
+    <Compile Include="DataSet1.vb">
+      <DependentUpon>DataSet1.xsd</DependentUpon>
+    </Compile>
+    <Compile Include="DataSet2.Designer.vb">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>DataSet2.xsd</DependentUpon>
+    </Compile>
+    <Compile Include="DataSet3.Designer.vb">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>DataSet3.xsd</DependentUpon>
+    </Compile>
+    <Compile Include="devises.Designer.vb">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>devises.xsd</DependentUpon>
+    </Compile>
+    <Compile Include="Dvs.Designer.vb">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>Dvs.xsd</DependentUpon>
+    </Compile>
+    <Compile Include="edituser.Designer.vb">
+      <DependentUpon>edituser.vb</DependentUpon>
+    </Compile>
+    <Compile Include="edituser.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="fdepenses.Designer.vb">
+      <DependentUpon>fdepenses.vb</DependentUpon>
+    </Compile>
+    <Compile Include="fdepenses.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Form1.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Form1.Designer.vb">
+      <DependentUpon>Form1.vb</DependentUpon>
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="frevenus.Designer.vb">
+      <DependentUpon>frevenus.vb</DependentUpon>
+    </Compile>
+    <Compile Include="frevenus.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="ftoutes.Designer.vb">
+      <DependentUpon>ftoutes.vb</DependentUpon>
+    </Compile>
+    <Compile Include="ftoutes.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="libelle.Designer.vb">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>libelle.xsd</DependentUpon>
+    </Compile>
+    <Compile Include="libelles.Designer.vb">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>libelles.xsd</DependentUpon>
+    </Compile>
+    <Compile Include="listDvs.Designer.vb">
+      <DependentUpon>listDvs.vb</DependentUpon>
+    </Compile>
+    <Compile Include="listDvs.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="listeLib.Designer.vb">
+      <DependentUpon>listeLib.vb</DependentUpon>
+    </Compile>
+    <Compile Include="listeLib.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="listePtf.Designer.vb">
+      <DependentUpon>listePtf.vb</DependentUpon>
+    </Compile>
+    <Compile Include="listePtf.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="MenuPrincipal.Designer.vb">
+      <DependentUpon>MenuPrincipal.vb</DependentUpon>
+    </Compile>
+    <Compile Include="MenuPrincipal.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="My Project\AssemblyInfo.vb" />
+    <Compile Include="My Project\Application.Designer.vb">
+      <AutoGen>True</AutoGen>
+      <DependentUpon>Application.myapp</DependentUpon>
+    </Compile>
+    <Compile Include="My Project\Resources.Designer.vb">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>Resources.resx</DependentUpon>
+    </Compile>
+    <Compile Include="My Project\Settings.Designer.vb">
+      <AutoGen>True</AutoGen>
+      <DependentUpon>Settings.settings</DependentUpon>
+      <DesignTimeSharedInput>True</DesignTimeSharedInput>
+    </Compile>
+    <Compile Include="newDevise.Designer.vb">
+      <DependentUpon>newDevise.vb</DependentUpon>
+    </Compile>
+    <Compile Include="newDevise.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="newPtf.Designer.vb">
+      <DependentUpon>newPtf.vb</DependentUpon>
+    </Compile>
+    <Compile Include="newPtf.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="newTst.Designer.vb">
+      <DependentUpon>newTst.vb</DependentUpon>
+    </Compile>
+    <Compile Include="newTst.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="newTypeTrans.Designer.vb">
+      <DependentUpon>newTypeTrans.vb</DependentUpon>
+    </Compile>
+    <Compile Include="newTypeTrans.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="picos_walletDataSet.Designer.vb">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>picos_walletDataSet.xsd</DependentUpon>
+    </Compile>
+    <Compile Include="picos_walletDataSet1.Designer.vb">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>picos_walletDataSet1.xsd</DependentUpon>
+    </Compile>
+    <Compile Include="portefeuilles.Designer.vb">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>portefeuilles.xsd</DependentUpon>
+    </Compile>
+    <Compile Include="portefeuilles1.Designer.vb">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>portefeuilles1.xsd</DependentUpon>
+    </Compile>
+    <Compile Include="transac.Designer.vb">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>transac.xsd</DependentUpon>
+    </Compile>
+    <Compile Include="transact.Designer.vb">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>transact.xsd</DependentUpon>
+    </Compile>
+  </ItemGroup>
+  <ItemGroup>
+    <EmbeddedResource Include="AboutBox1.resx">
+      <DependentUpon>AboutBox1.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="ajoutUser.resx">
+      <DependentUpon>ajoutUser.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="connexion.resx">
+      <DependentUpon>connexion.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="edituser.resx">
+      <DependentUpon>edituser.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="fdepenses.rdlc" />
+    <EmbeddedResource Include="fdepenses.resx">
+      <DependentUpon>fdepenses.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Form1.resx">
+      <DependentUpon>Form1.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="frevenus.rdlc" />
+    <EmbeddedResource Include="frevenus.resx">
+      <DependentUpon>frevenus.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="ftoutes.rdlc" />
+    <EmbeddedResource Include="ftoutes.resx">
+      <DependentUpon>ftoutes.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="listDvs.resx">
+      <DependentUpon>listDvs.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="listeLib.resx">
+      <DependentUpon>listeLib.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="listePtf.resx">
+      <DependentUpon>listePtf.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="MenuPrincipal.resx">
+      <DependentUpon>MenuPrincipal.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="My Project\Resources.resx">
+      <Generator>VbMyResourcesResXFileCodeGenerator</Generator>
+      <LastGenOutput>Resources.Designer.vb</LastGenOutput>
+      <CustomToolNamespace>My.Resources</CustomToolNamespace>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="newDevise.resx">
+      <DependentUpon>newDevise.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="newPtf.resx">
+      <DependentUpon>newPtf.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="newTst.resx">
+      <DependentUpon>newTst.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="newTypeTrans.resx">
+      <DependentUpon>newTypeTrans.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="rap.rdlc" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="App.config" />
+    <None Include="cat1.xsc">
+      <DependentUpon>cat1.xsd</DependentUpon>
+    </None>
+    <None Include="cat1.xsd">
+      <Generator>MSDataSetGenerator</Generator>
+      <LastGenOutput>cat1.Designer.vb</LastGenOutput>
+      <SubType>Designer</SubType>
+    </None>
+    <None Include="cat1.xss">
+      <DependentUpon>cat1.xsd</DependentUpon>
+    </None>
+    <None Include="categories.xsc">
+      <DependentUpon>categories.xsd</DependentUpon>
+    </None>
+    <None Include="categories.xsd">
+      <Generator>MSDataSetGenerator</Generator>
+      <LastGenOutput>categories.Designer.vb</LastGenOutput>
+      <SubType>Designer</SubType>
+    </None>
+    <None Include="categories.xss">
+      <DependentUpon>categories.xsd</DependentUpon>
+    </None>
+    <None Include="DataSet1.xsc">
+      <DependentUpon>DataSet1.xsd</DependentUpon>
+    </None>
+    <None Include="DataSet1.xsd">
+      <SubType>Designer</SubType>
+      <Generator>MSDataSetGenerator</Generator>
+      <LastGenOutput>DataSet1.Designer.vb</LastGenOutput>
+    </None>
+    <None Include="DataSet1.xss">
+      <DependentUpon>DataSet1.xsd</DependentUpon>
+    </None>
+    <None Include="DataSet2.xsc">
+      <DependentUpon>DataSet2.xsd</DependentUpon>
+    </None>
+    <None Include="DataSet2.xsd">
+      <SubType>Designer</SubType>
+      <Generator>MSDataSetGenerator</Generator>
+      <LastGenOutput>DataSet2.Designer.vb</LastGenOutput>
+    </None>
+    <None Include="DataSet2.xss">
+      <DependentUpon>DataSet2.xsd</DependentUpon>
+    </None>
+    <None Include="DataSet3.xsc">
+      <DependentUpon>DataSet3.xsd</DependentUpon>
+    </None>
+    <None Include="DataSet3.xsd">
+      <SubType>Designer</SubType>
+      <Generator>MSDataSetGenerator</Generator>
+      <LastGenOutput>DataSet3.Designer.vb</LastGenOutput>
+    </None>
+    <None Include="DataSet3.xss">
+      <DependentUpon>DataSet3.xsd</DependentUpon>
+    </None>
+    <None Include="devises.xsc">
+      <DependentUpon>devises.xsd</DependentUpon>
+    </None>
+    <None Include="devises.xsd">
+      <Generator>MSDataSetGenerator</Generator>
+      <LastGenOutput>devises.Designer.vb</LastGenOutput>
+      <SubType>Designer</SubType>
+    </None>
+    <None Include="devises.xss">
+      <DependentUpon>devises.xsd</DependentUpon>
+    </None>
+    <None Include="Dvs.xsc">
+      <DependentUpon>Dvs.xsd</DependentUpon>
+    </None>
+    <None Include="Dvs.xsd">
+      <Generator>MSDataSetGenerator</Generator>
+      <LastGenOutput>Dvs.Designer.vb</LastGenOutput>
+      <SubType>Designer</SubType>
+    </None>
+    <None Include="Dvs.xss">
+      <DependentUpon>Dvs.xsd</DependentUpon>
+    </None>
+    <None Include="libelle.xsc">
+      <DependentUpon>libelle.xsd</DependentUpon>
+    </None>
+    <None Include="libelle.xsd">
+      <Generator>MSDataSetGenerator</Generator>
+      <LastGenOutput>libelle.Designer.vb</LastGenOutput>
+      <SubType>Designer</SubType>
+    </None>
+    <None Include="libelle.xss">
+      <DependentUpon>libelle.xsd</DependentUpon>
+    </None>
+    <None Include="libelles.xsc">
+      <DependentUpon>libelles.xsd</DependentUpon>
+    </None>
+    <None Include="libelles.xsd">
+      <Generator>MSDataSetGenerator</Generator>
+      <LastGenOutput>libelles.Designer.vb</LastGenOutput>
+      <SubType>Designer</SubType>
+    </None>
+    <None Include="libelles.xss">
+      <DependentUpon>libelles.xsd</DependentUpon>
+    </None>
+    <None Include="My Project\Application.myapp">
+      <Generator>MyApplicationCodeGenerator</Generator>
+      <LastGenOutput>Application.Designer.vb</LastGenOutput>
+    </None>
+    <None Include="My Project\Settings.settings">
+      <Generator>SettingsSingleFileGenerator</Generator>
+      <CustomToolNamespace>My</CustomToolNamespace>
+      <LastGenOutput>Settings.Designer.vb</LastGenOutput>
+    </None>
+    <None Include="picos_walletDataSet.xsc">
+      <DependentUpon>picos_walletDataSet.xsd</DependentUpon>
+    </None>
+    <None Include="picos_walletDataSet.xsd">
+      <Generator>MSDataSetGenerator</Generator>
+      <LastGenOutput>picos_walletDataSet.Designer.vb</LastGenOutput>
+      <SubType>Designer</SubType>
+    </None>
+    <None Include="picos_walletDataSet.xss">
+      <DependentUpon>picos_walletDataSet.xsd</DependentUpon>
+    </None>
+    <None Include="picos_walletDataSet1.xsc">
+      <DependentUpon>picos_walletDataSet1.xsd</DependentUpon>
+    </None>
+    <None Include="picos_walletDataSet1.xsd">
+      <Generator>MSDataSetGenerator</Generator>
+      <LastGenOutput>picos_walletDataSet1.Designer.vb</LastGenOutput>
+      <SubType>Designer</SubType>
+    </None>
+    <None Include="picos_walletDataSet1.xss">
+      <DependentUpon>picos_walletDataSet1.xsd</DependentUpon>
+    </None>
+    <None Include="Picos_Wallet_TemporaryKey.pfx" />
+    <None Include="portefeuilles.xsc">
+      <DependentUpon>portefeuilles.xsd</DependentUpon>
+    </None>
+    <None Include="portefeuilles.xsd">
+      <Generator>MSDataSetGenerator</Generator>
+      <LastGenOutput>portefeuilles.Designer.vb</LastGenOutput>
+      <SubType>Designer</SubType>
+    </None>
+    <None Include="portefeuilles.xss">
+      <DependentUpon>portefeuilles.xsd</DependentUpon>
+    </None>
+    <None Include="transac.xsc">
+      <DependentUpon>transac.xsd</DependentUpon>
+    </None>
+    <None Include="transac.xsd">
+      <Generator>MSDataSetGenerator</Generator>
+      <LastGenOutput>transac.Designer.vb</LastGenOutput>
+      <SubType>Designer</SubType>
+    </None>
+    <None Include="transac.xss">
+      <DependentUpon>transac.xsd</DependentUpon>
+    </None>
+    <None Include="transact.xsc">
+      <DependentUpon>transact.xsd</DependentUpon>
+    </None>
+    <None Include="transact.xsd">
+      <Generator>MSDataSetGenerator</Generator>
+      <LastGenOutput>transact.Designer.vb</LastGenOutput>
+      <SubType>Designer</SubType>
+    </None>
+    <None Include="transact.xss">
+      <DependentUpon>transact.xsd</DependentUpon>
+    </None>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="portefeuilles1.xsc">
+      <DependentUpon>portefeuilles1.xsd</DependentUpon>
+    </None>
+    <None Include="portefeuilles1.xsd">
+      <Generator>MSDataSetGenerator</Generator>
+      <LastGenOutput>portefeuilles1.Designer.vb</LastGenOutput>
+      <SubType>Designer</SubType>
+    </None>
+    <None Include="portefeuilles1.xss">
+      <DependentUpon>portefeuilles1.xsd</DependentUpon>
+    </None>
+    <None Include="Resources\wallet_127px.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\plus_20px.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\login_20px.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\waallet_127px.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\plus_32px.png" />
+    <None Include="Resources\round_127px.png" />
+    <None Include="Resources\Wplus_20px.png" />
+    <None Include="Resources\Wlogin_20px.png" />
+    <None Include="Resources\wallet_20px.png" />
+    <None Include="Resources\us_dollar_20px.png" />
+    <None Include="Resources\tags_20px.png" />
+    <None Include="Resources\ok_17px.png" />
+    <None Include="Resources\cancel_17px.png" />
+    <None Include="Resources\login_17px.png" />
+    <None Include="Resources\trash_15px.png" />
+    <Content Include="wallet.ico" />
+  </ItemGroup>
+  <ItemGroup>
+    <BootstrapperPackage Include=".NETFramework,Version=v4.0,Profile=Client">
+      <Visible>False</Visible>
+      <ProductName>Microsoft .NET Framework 4 Client Profile %28x86 et x64%29</ProductName>
+      <Install>true</Install>
+    </BootstrapperPackage>
+    <BootstrapperPackage Include="Microsoft.Net.Client.3.5">
+      <Visible>False</Visible>
+      <ProductName>.NET Framework 3.5 SP1 Client Profile</ProductName>
+      <Install>false</Install>
+    </BootstrapperPackage>
+    <BootstrapperPackage Include="Microsoft.Net.Framework.3.5.SP1">
+      <Visible>False</Visible>
+      <ProductName>.NET Framework 3.5 SP1</ProductName>
+      <Install>false</Install>
+    </BootstrapperPackage>
+    <BootstrapperPackage Include="Microsoft.Windows.Installer.3.1">
+      <Visible>False</Visible>
+      <ProductName>Windows Installer 3.1</ProductName>
+      <Install>true</Install>
+    </BootstrapperPackage>
+  </ItemGroup>
+  <Import Project="$(MSBuildToolsPath)\Microsoft.VisualBasic.targets" />
+  <!-- To modify your build process, add your task inside one of the targets below and uncomment it. 
+       Other similar extension points exist, see Microsoft.Common.targets.
+  <Target Name="BeforeBuild">
+  </Target>
+  <Target Name="AfterBuild">
+  </Target>
+  -->
+</Project>

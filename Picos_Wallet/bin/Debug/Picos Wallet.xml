@@ -1,0 +1,760 @@
+﻿<?xml version="1.0"?>
+<doc>
+<assembly>
+<name>
+PicosWallet
+</name>
+</assembly>
+<members>
+<member name="T:Picos_Wallet.categories.categoriesDataTable">
+	<summary>
+Represents the strongly named DataTable class.
+</summary>
+</member><member name="T:Picos_Wallet.categories.categoriesRow">
+	<summary>
+Represents strongly named DataRow class.
+</summary>
+</member><member name="T:Picos_Wallet.categories.categoriesRowChangeEvent">
+	<summary>
+Row event argument class
+</summary>
+</member><member name="T:Picos_Wallet.categories">
+	<summary>
+Represents a strongly typed in-memory cache of data.
+</summary>
+</member><member name="T:Picos_Wallet.categoriesTableAdapters.categoriesTableAdapter">
+	<summary>
+Represents the connection and commands used to retrieve and save data.
+</summary>
+</member><member name="M:Picos_Wallet.categoriesTableAdapters.TableAdapterManager.UpdateUpdatedRows(Picos_Wallet.categories,System.Collections.Generic.List{System.Data.DataRow},System.Collections.Generic.List{System.Data.DataRow})">
+	<summary>
+Update rows in top-down order.
+</summary>
+</member><member name="M:Picos_Wallet.categoriesTableAdapters.TableAdapterManager.UpdateInsertedRows(Picos_Wallet.categories,System.Collections.Generic.List{System.Data.DataRow})">
+	<summary>
+Insert rows in top-down order.
+</summary>
+</member><member name="M:Picos_Wallet.categoriesTableAdapters.TableAdapterManager.UpdateDeletedRows(Picos_Wallet.categories,System.Collections.Generic.List{System.Data.DataRow})">
+	<summary>
+Delete rows in bottom-up order.
+</summary>
+</member><member name="M:Picos_Wallet.categoriesTableAdapters.TableAdapterManager.GetRealUpdatedRows(System.Data.DataRow[],System.Collections.Generic.List{System.Data.DataRow})">
+	<summary>
+Remove inserted rows that become updated rows after calling TableAdapter.Update(inserted rows) first
+</summary>
+</member><member name="M:Picos_Wallet.categoriesTableAdapters.TableAdapterManager.UpdateAll(Picos_Wallet.categories)">
+	<summary>
+Update all changes to the dataset.
+</summary>
+</member><member name="T:Picos_Wallet.categoriesTableAdapters.TableAdapterManager.UpdateOrderOption">
+	<summary>
+Update Order Option
+</summary>
+</member><member name="T:Picos_Wallet.categoriesTableAdapters.TableAdapterManager.SelfReferenceComparer">
+	<summary>
+Used to sort self-referenced table's rows
+</summary>
+</member><member name="T:Picos_Wallet.categoriesTableAdapters.TableAdapterManager">
+	<summary>
+TableAdapterManager is used to coordinate TableAdapters in the dataset to enable Hierarchical Update scenarios
+</summary>
+</member><member name="T:Picos_Wallet.picos_walletDataSet.devisesDataTable">
+	<summary>
+Represents the strongly named DataTable class.
+</summary>
+</member><member name="T:Picos_Wallet.picos_walletDataSet.devisesRow">
+	<summary>
+Represents strongly named DataRow class.
+</summary>
+</member><member name="T:Picos_Wallet.picos_walletDataSet.devisesRowChangeEvent">
+	<summary>
+Row event argument class
+</summary>
+</member><member name="T:Picos_Wallet.picos_walletDataSet">
+	<summary>
+Represents a strongly typed in-memory cache of data.
+</summary>
+</member><member name="T:Picos_Wallet.picos_walletDataSetTableAdapters.devisesTableAdapter">
+	<summary>
+Represents the connection and commands used to retrieve and save data.
+</summary>
+</member><member name="M:Picos_Wallet.picos_walletDataSetTableAdapters.TableAdapterManager.UpdateUpdatedRows(Picos_Wallet.picos_walletDataSet,System.Collections.Generic.List{System.Data.DataRow},System.Collections.Generic.List{System.Data.DataRow})">
+	<summary>
+Update rows in top-down order.
+</summary>
+</member><member name="M:Picos_Wallet.picos_walletDataSetTableAdapters.TableAdapterManager.UpdateInsertedRows(Picos_Wallet.picos_walletDataSet,System.Collections.Generic.List{System.Data.DataRow})">
+	<summary>
+Insert rows in top-down order.
+</summary>
+</member><member name="M:Picos_Wallet.picos_walletDataSetTableAdapters.TableAdapterManager.UpdateDeletedRows(Picos_Wallet.picos_walletDataSet,System.Collections.Generic.List{System.Data.DataRow})">
+	<summary>
+Delete rows in bottom-up order.
+</summary>
+</member><member name="M:Picos_Wallet.picos_walletDataSetTableAdapters.TableAdapterManager.GetRealUpdatedRows(System.Data.DataRow[],System.Collections.Generic.List{System.Data.DataRow})">
+	<summary>
+Remove inserted rows that become updated rows after calling TableAdapter.Update(inserted rows) first
+</summary>
+</member><member name="M:Picos_Wallet.picos_walletDataSetTableAdapters.TableAdapterManager.UpdateAll(Picos_Wallet.picos_walletDataSet)">
+	<summary>
+Update all changes to the dataset.
+</summary>
+</member><member name="T:Picos_Wallet.picos_walletDataSetTableAdapters.TableAdapterManager.UpdateOrderOption">
+	<summary>
+Update Order Option
+</summary>
+</member><member name="T:Picos_Wallet.picos_walletDataSetTableAdapters.TableAdapterManager.SelfReferenceComparer">
+	<summary>
+Used to sort self-referenced table's rows
+</summary>
+</member><member name="T:Picos_Wallet.picos_walletDataSetTableAdapters.TableAdapterManager">
+	<summary>
+TableAdapterManager is used to coordinate TableAdapters in the dataset to enable Hierarchical Update scenarios
+</summary>
+</member><member name="T:Picos_Wallet.portefeuilles1.portefeuillesDataTable">
+	<summary>
+Represents the strongly named DataTable class.
+</summary>
+</member><member name="T:Picos_Wallet.portefeuilles1.portefeuillesRow">
+	<summary>
+Represents strongly named DataRow class.
+</summary>
+</member><member name="T:Picos_Wallet.portefeuilles1.portefeuillesRowChangeEvent">
+	<summary>
+Row event argument class
+</summary>
+</member><member name="T:Picos_Wallet.portefeuilles1">
+	<summary>
+Represents a strongly typed in-memory cache of data.
+</summary>
+</member><member name="T:Picos_Wallet.portefeuilles1TableAdapters.portefeuillesTableAdapter">
+	<summary>
+Represents the connection and commands used to retrieve and save data.
+</summary>
+</member><member name="M:Picos_Wallet.portefeuilles1TableAdapters.TableAdapterManager.UpdateUpdatedRows(Picos_Wallet.portefeuilles1,System.Collections.Generic.List{System.Data.DataRow},System.Collections.Generic.List{System.Data.DataRow})">
+	<summary>
+Update rows in top-down order.
+</summary>
+</member><member name="M:Picos_Wallet.portefeuilles1TableAdapters.TableAdapterManager.UpdateInsertedRows(Picos_Wallet.portefeuilles1,System.Collections.Generic.List{System.Data.DataRow})">
+	<summary>
+Insert rows in top-down order.
+</summary>
+</member><member name="M:Picos_Wallet.portefeuilles1TableAdapters.TableAdapterManager.UpdateDeletedRows(Picos_Wallet.portefeuilles1,System.Collections.Generic.List{System.Data.DataRow})">
+	<summary>
+Delete rows in bottom-up order.
+</summary>
+</member><member name="M:Picos_Wallet.portefeuilles1TableAdapters.TableAdapterManager.GetRealUpdatedRows(System.Data.DataRow[],System.Collections.Generic.List{System.Data.DataRow})">
+	<summary>
+Remove inserted rows that become updated rows after calling TableAdapter.Update(inserted rows) first
+</summary>
+</member><member name="M:Picos_Wallet.portefeuilles1TableAdapters.TableAdapterManager.UpdateAll(Picos_Wallet.portefeuilles1)">
+	<summary>
+Update all changes to the dataset.
+</summary>
+</member><member name="T:Picos_Wallet.portefeuilles1TableAdapters.TableAdapterManager.UpdateOrderOption">
+	<summary>
+Update Order Option
+</summary>
+</member><member name="T:Picos_Wallet.portefeuilles1TableAdapters.TableAdapterManager.SelfReferenceComparer">
+	<summary>
+Used to sort self-referenced table's rows
+</summary>
+</member><member name="T:Picos_Wallet.portefeuilles1TableAdapters.TableAdapterManager">
+	<summary>
+TableAdapterManager is used to coordinate TableAdapters in the dataset to enable Hierarchical Update scenarios
+</summary>
+</member><member name="T:Picos_Wallet.libelle.type_transacDataTable">
+	<summary>
+Represents the strongly named DataTable class.
+</summary>
+</member><member name="T:Picos_Wallet.libelle.type_transacRow">
+	<summary>
+Represents strongly named DataRow class.
+</summary>
+</member><member name="T:Picos_Wallet.libelle.type_transacRowChangeEvent">
+	<summary>
+Row event argument class
+</summary>
+</member><member name="T:Picos_Wallet.libelle">
+	<summary>
+Represents a strongly typed in-memory cache of data.
+</summary>
+</member><member name="T:Picos_Wallet.libelleTableAdapters.type_transacTableAdapter">
+	<summary>
+Represents the connection and commands used to retrieve and save data.
+</summary>
+</member><member name="M:Picos_Wallet.libelleTableAdapters.TableAdapterManager.UpdateUpdatedRows(Picos_Wallet.libelle,System.Collections.Generic.List{System.Data.DataRow},System.Collections.Generic.List{System.Data.DataRow})">
+	<summary>
+Update rows in top-down order.
+</summary>
+</member><member name="M:Picos_Wallet.libelleTableAdapters.TableAdapterManager.UpdateInsertedRows(Picos_Wallet.libelle,System.Collections.Generic.List{System.Data.DataRow})">
+	<summary>
+Insert rows in top-down order.
+</summary>
+</member><member name="M:Picos_Wallet.libelleTableAdapters.TableAdapterManager.UpdateDeletedRows(Picos_Wallet.libelle,System.Collections.Generic.List{System.Data.DataRow})">
+	<summary>
+Delete rows in bottom-up order.
+</summary>
+</member><member name="M:Picos_Wallet.libelleTableAdapters.TableAdapterManager.GetRealUpdatedRows(System.Data.DataRow[],System.Collections.Generic.List{System.Data.DataRow})">
+	<summary>
+Remove inserted rows that become updated rows after calling TableAdapter.Update(inserted rows) first
+</summary>
+</member><member name="M:Picos_Wallet.libelleTableAdapters.TableAdapterManager.UpdateAll(Picos_Wallet.libelle)">
+	<summary>
+Update all changes to the dataset.
+</summary>
+</member><member name="T:Picos_Wallet.libelleTableAdapters.TableAdapterManager.UpdateOrderOption">
+	<summary>
+Update Order Option
+</summary>
+</member><member name="T:Picos_Wallet.libelleTableAdapters.TableAdapterManager.SelfReferenceComparer">
+	<summary>
+Used to sort self-referenced table's rows
+</summary>
+</member><member name="T:Picos_Wallet.libelleTableAdapters.TableAdapterManager">
+	<summary>
+TableAdapterManager is used to coordinate TableAdapters in the dataset to enable Hierarchical Update scenarios
+</summary>
+</member><member name="T:Picos_Wallet.transac.transactionsDataTable">
+	<summary>
+Represents the strongly named DataTable class.
+</summary>
+</member><member name="T:Picos_Wallet.transac.transactionsRow">
+	<summary>
+Represents strongly named DataRow class.
+</summary>
+</member><member name="T:Picos_Wallet.transac.transactionsRowChangeEvent">
+	<summary>
+Row event argument class
+</summary>
+</member><member name="T:Picos_Wallet.transac">
+	<summary>
+Represents a strongly typed in-memory cache of data.
+</summary>
+</member><member name="T:Picos_Wallet.transacTableAdapters.transactionsTableAdapter">
+	<summary>
+Represents the connection and commands used to retrieve and save data.
+</summary>
+</member><member name="M:Picos_Wallet.transacTableAdapters.TableAdapterManager.UpdateUpdatedRows(Picos_Wallet.transac,System.Collections.Generic.List{System.Data.DataRow},System.Collections.Generic.List{System.Data.DataRow})">
+	<summary>
+Update rows in top-down order.
+</summary>
+</member><member name="M:Picos_Wallet.transacTableAdapters.TableAdapterManager.UpdateInsertedRows(Picos_Wallet.transac,System.Collections.Generic.List{System.Data.DataRow})">
+	<summary>
+Insert rows in top-down order.
+</summary>
+</member><member name="M:Picos_Wallet.transacTableAdapters.TableAdapterManager.UpdateDeletedRows(Picos_Wallet.transac,System.Collections.Generic.List{System.Data.DataRow})">
+	<summary>
+Delete rows in bottom-up order.
+</summary>
+</member><member name="M:Picos_Wallet.transacTableAdapters.TableAdapterManager.GetRealUpdatedRows(System.Data.DataRow[],System.Collections.Generic.List{System.Data.DataRow})">
+	<summary>
+Remove inserted rows that become updated rows after calling TableAdapter.Update(inserted rows) first
+</summary>
+</member><member name="M:Picos_Wallet.transacTableAdapters.TableAdapterManager.UpdateAll(Picos_Wallet.transac)">
+	<summary>
+Update all changes to the dataset.
+</summary>
+</member><member name="T:Picos_Wallet.transacTableAdapters.TableAdapterManager.UpdateOrderOption">
+	<summary>
+Update Order Option
+</summary>
+</member><member name="T:Picos_Wallet.transacTableAdapters.TableAdapterManager.SelfReferenceComparer">
+	<summary>
+Used to sort self-referenced table's rows
+</summary>
+</member><member name="T:Picos_Wallet.transacTableAdapters.TableAdapterManager">
+	<summary>
+TableAdapterManager is used to coordinate TableAdapters in the dataset to enable Hierarchical Update scenarios
+</summary>
+</member><member name="T:Picos_Wallet.DataSet1.DataTable1DataTable">
+	<summary>
+Represents the strongly named DataTable class.
+</summary>
+</member><member name="T:Picos_Wallet.DataSet1.DataTable1Row">
+	<summary>
+Represents strongly named DataRow class.
+</summary>
+</member><member name="T:Picos_Wallet.DataSet1.DataTable1RowChangeEvent">
+	<summary>
+Row event argument class
+</summary>
+</member><member name="T:Picos_Wallet.DataSet1">
+	<summary>
+Represents a strongly typed in-memory cache of data.
+</summary>
+</member><member name="T:Picos_Wallet.picos_walletDataSet1.portefeuillesDataTable">
+	<summary>
+Represents the strongly named DataTable class.
+</summary>
+</member><member name="T:Picos_Wallet.picos_walletDataSet1.portefeuillesRow">
+	<summary>
+Represents strongly named DataRow class.
+</summary>
+</member><member name="T:Picos_Wallet.picos_walletDataSet1.portefeuillesRowChangeEvent">
+	<summary>
+Row event argument class
+</summary>
+</member><member name="T:Picos_Wallet.picos_walletDataSet1">
+	<summary>
+Represents a strongly typed in-memory cache of data.
+</summary>
+</member><member name="T:Picos_Wallet.picos_walletDataSet1TableAdapters.portefeuillesTableAdapter">
+	<summary>
+Represents the connection and commands used to retrieve and save data.
+</summary>
+</member><member name="M:Picos_Wallet.picos_walletDataSet1TableAdapters.TableAdapterManager.UpdateUpdatedRows(Picos_Wallet.picos_walletDataSet1,System.Collections.Generic.List{System.Data.DataRow},System.Collections.Generic.List{System.Data.DataRow})">
+	<summary>
+Update rows in top-down order.
+</summary>
+</member><member name="M:Picos_Wallet.picos_walletDataSet1TableAdapters.TableAdapterManager.UpdateInsertedRows(Picos_Wallet.picos_walletDataSet1,System.Collections.Generic.List{System.Data.DataRow})">
+	<summary>
+Insert rows in top-down order.
+</summary>
+</member><member name="M:Picos_Wallet.picos_walletDataSet1TableAdapters.TableAdapterManager.UpdateDeletedRows(Picos_Wallet.picos_walletDataSet1,System.Collections.Generic.List{System.Data.DataRow})">
+	<summary>
+Delete rows in bottom-up order.
+</summary>
+</member><member name="M:Picos_Wallet.picos_walletDataSet1TableAdapters.TableAdapterManager.GetRealUpdatedRows(System.Data.DataRow[],System.Collections.Generic.List{System.Data.DataRow})">
+	<summary>
+Remove inserted rows that become updated rows after calling TableAdapter.Update(inserted rows) first
+</summary>
+</member><member name="M:Picos_Wallet.picos_walletDataSet1TableAdapters.TableAdapterManager.UpdateAll(Picos_Wallet.picos_walletDataSet1)">
+	<summary>
+Update all changes to the dataset.
+</summary>
+</member><member name="T:Picos_Wallet.picos_walletDataSet1TableAdapters.TableAdapterManager.UpdateOrderOption">
+	<summary>
+Update Order Option
+</summary>
+</member><member name="T:Picos_Wallet.picos_walletDataSet1TableAdapters.TableAdapterManager.SelfReferenceComparer">
+	<summary>
+Used to sort self-referenced table's rows
+</summary>
+</member><member name="T:Picos_Wallet.picos_walletDataSet1TableAdapters.TableAdapterManager">
+	<summary>
+TableAdapterManager is used to coordinate TableAdapters in the dataset to enable Hierarchical Update scenarios
+</summary>
+</member><member name="T:Picos_Wallet.devises.devisesDataTable">
+	<summary>
+Represents the strongly named DataTable class.
+</summary>
+</member><member name="T:Picos_Wallet.devises.devisesRow">
+	<summary>
+Represents strongly named DataRow class.
+</summary>
+</member><member name="T:Picos_Wallet.devises.devisesRowChangeEvent">
+	<summary>
+Row event argument class
+</summary>
+</member><member name="T:Picos_Wallet.devises">
+	<summary>
+Represents a strongly typed in-memory cache of data.
+</summary>
+</member><member name="T:Picos_Wallet.devisesTableAdapters.devisesTableAdapter">
+	<summary>
+Represents the connection and commands used to retrieve and save data.
+</summary>
+</member><member name="M:Picos_Wallet.devisesTableAdapters.TableAdapterManager.UpdateUpdatedRows(Picos_Wallet.devises,System.Collections.Generic.List{System.Data.DataRow},System.Collections.Generic.List{System.Data.DataRow})">
+	<summary>
+Update rows in top-down order.
+</summary>
+</member><member name="M:Picos_Wallet.devisesTableAdapters.TableAdapterManager.UpdateInsertedRows(Picos_Wallet.devises,System.Collections.Generic.List{System.Data.DataRow})">
+	<summary>
+Insert rows in top-down order.
+</summary>
+</member><member name="M:Picos_Wallet.devisesTableAdapters.TableAdapterManager.UpdateDeletedRows(Picos_Wallet.devises,System.Collections.Generic.List{System.Data.DataRow})">
+	<summary>
+Delete rows in bottom-up order.
+</summary>
+</member><member name="M:Picos_Wallet.devisesTableAdapters.TableAdapterManager.GetRealUpdatedRows(System.Data.DataRow[],System.Collections.Generic.List{System.Data.DataRow})">
+	<summary>
+Remove inserted rows that become updated rows after calling TableAdapter.Update(inserted rows) first
+</summary>
+</member><member name="M:Picos_Wallet.devisesTableAdapters.TableAdapterManager.UpdateAll(Picos_Wallet.devises)">
+	<summary>
+Update all changes to the dataset.
+</summary>
+</member><member name="T:Picos_Wallet.devisesTableAdapters.TableAdapterManager.UpdateOrderOption">
+	<summary>
+Update Order Option
+</summary>
+</member><member name="T:Picos_Wallet.devisesTableAdapters.TableAdapterManager.SelfReferenceComparer">
+	<summary>
+Used to sort self-referenced table's rows
+</summary>
+</member><member name="T:Picos_Wallet.devisesTableAdapters.TableAdapterManager">
+	<summary>
+TableAdapterManager is used to coordinate TableAdapters in the dataset to enable Hierarchical Update scenarios
+</summary>
+</member><member name="T:Picos_Wallet.Dvs.devisesDataTable">
+	<summary>
+Represents the strongly named DataTable class.
+</summary>
+</member><member name="T:Picos_Wallet.Dvs.devisesRow">
+	<summary>
+Represents strongly named DataRow class.
+</summary>
+</member><member name="T:Picos_Wallet.Dvs.devisesRowChangeEvent">
+	<summary>
+Row event argument class
+</summary>
+</member><member name="T:Picos_Wallet.Dvs">
+	<summary>
+Represents a strongly typed in-memory cache of data.
+</summary>
+</member><member name="T:Picos_Wallet.DvsTableAdapters.devisesTableAdapter">
+	<summary>
+Represents the connection and commands used to retrieve and save data.
+</summary>
+</member><member name="M:Picos_Wallet.DvsTableAdapters.TableAdapterManager.UpdateUpdatedRows(Picos_Wallet.Dvs,System.Collections.Generic.List{System.Data.DataRow},System.Collections.Generic.List{System.Data.DataRow})">
+	<summary>
+Update rows in top-down order.
+</summary>
+</member><member name="M:Picos_Wallet.DvsTableAdapters.TableAdapterManager.UpdateInsertedRows(Picos_Wallet.Dvs,System.Collections.Generic.List{System.Data.DataRow})">
+	<summary>
+Insert rows in top-down order.
+</summary>
+</member><member name="M:Picos_Wallet.DvsTableAdapters.TableAdapterManager.UpdateDeletedRows(Picos_Wallet.Dvs,System.Collections.Generic.List{System.Data.DataRow})">
+	<summary>
+Delete rows in bottom-up order.
+</summary>
+</member><member name="M:Picos_Wallet.DvsTableAdapters.TableAdapterManager.GetRealUpdatedRows(System.Data.DataRow[],System.Collections.Generic.List{System.Data.DataRow})">
+	<summary>
+Remove inserted rows that become updated rows after calling TableAdapter.Update(inserted rows) first
+</summary>
+</member><member name="M:Picos_Wallet.DvsTableAdapters.TableAdapterManager.UpdateAll(Picos_Wallet.Dvs)">
+	<summary>
+Update all changes to the dataset.
+</summary>
+</member><member name="T:Picos_Wallet.DvsTableAdapters.TableAdapterManager.UpdateOrderOption">
+	<summary>
+Update Order Option
+</summary>
+</member><member name="T:Picos_Wallet.DvsTableAdapters.TableAdapterManager.SelfReferenceComparer">
+	<summary>
+Used to sort self-referenced table's rows
+</summary>
+</member><member name="T:Picos_Wallet.DvsTableAdapters.TableAdapterManager">
+	<summary>
+TableAdapterManager is used to coordinate TableAdapters in the dataset to enable Hierarchical Update scenarios
+</summary>
+</member><member name="T:Picos_Wallet.transact.transactionsDataTable">
+	<summary>
+Represents the strongly named DataTable class.
+</summary>
+</member><member name="T:Picos_Wallet.transact.transactionsRow">
+	<summary>
+Represents strongly named DataRow class.
+</summary>
+</member><member name="T:Picos_Wallet.transact.transactionsRowChangeEvent">
+	<summary>
+Row event argument class
+</summary>
+</member><member name="T:Picos_Wallet.transact">
+	<summary>
+Represents a strongly typed in-memory cache of data.
+</summary>
+</member><member name="T:Picos_Wallet.transactTableAdapters.transactionsTableAdapter">
+	<summary>
+Represents the connection and commands used to retrieve and save data.
+</summary>
+</member><member name="M:Picos_Wallet.transactTableAdapters.TableAdapterManager.UpdateUpdatedRows(Picos_Wallet.transact,System.Collections.Generic.List{System.Data.DataRow},System.Collections.Generic.List{System.Data.DataRow})">
+	<summary>
+Update rows in top-down order.
+</summary>
+</member><member name="M:Picos_Wallet.transactTableAdapters.TableAdapterManager.UpdateInsertedRows(Picos_Wallet.transact,System.Collections.Generic.List{System.Data.DataRow})">
+	<summary>
+Insert rows in top-down order.
+</summary>
+</member><member name="M:Picos_Wallet.transactTableAdapters.TableAdapterManager.UpdateDeletedRows(Picos_Wallet.transact,System.Collections.Generic.List{System.Data.DataRow})">
+	<summary>
+Delete rows in bottom-up order.
+</summary>
+</member><member name="M:Picos_Wallet.transactTableAdapters.TableAdapterManager.GetRealUpdatedRows(System.Data.DataRow[],System.Collections.Generic.List{System.Data.DataRow})">
+	<summary>
+Remove inserted rows that become updated rows after calling TableAdapter.Update(inserted rows) first
+</summary>
+</member><member name="M:Picos_Wallet.transactTableAdapters.TableAdapterManager.UpdateAll(Picos_Wallet.transact)">
+	<summary>
+Update all changes to the dataset.
+</summary>
+</member><member name="T:Picos_Wallet.transactTableAdapters.TableAdapterManager.UpdateOrderOption">
+	<summary>
+Update Order Option
+</summary>
+</member><member name="T:Picos_Wallet.transactTableAdapters.TableAdapterManager.SelfReferenceComparer">
+	<summary>
+Used to sort self-referenced table's rows
+</summary>
+</member><member name="T:Picos_Wallet.transactTableAdapters.TableAdapterManager">
+	<summary>
+TableAdapterManager is used to coordinate TableAdapters in the dataset to enable Hierarchical Update scenarios
+</summary>
+</member><member name="T:Picos_Wallet.DataSet3.DataTable1DataTable">
+	<summary>
+Represents the strongly named DataTable class.
+</summary>
+</member><member name="T:Picos_Wallet.DataSet3.DataTable1Row">
+	<summary>
+Represents strongly named DataRow class.
+</summary>
+</member><member name="T:Picos_Wallet.DataSet3.DataTable1RowChangeEvent">
+	<summary>
+Row event argument class
+</summary>
+</member><member name="T:Picos_Wallet.DataSet3">
+	<summary>
+Represents a strongly typed in-memory cache of data.
+</summary>
+</member><member name="T:Picos_Wallet.libelles.type_transacDataTable">
+	<summary>
+Represents the strongly named DataTable class.
+</summary>
+</member><member name="T:Picos_Wallet.libelles.type_transacRow">
+	<summary>
+Represents strongly named DataRow class.
+</summary>
+</member><member name="T:Picos_Wallet.libelles.type_transacRowChangeEvent">
+	<summary>
+Row event argument class
+</summary>
+</member><member name="T:Picos_Wallet.libelles">
+	<summary>
+Represents a strongly typed in-memory cache of data.
+</summary>
+</member><member name="T:Picos_Wallet.libellesTableAdapters.type_transacTableAdapter">
+	<summary>
+Represents the connection and commands used to retrieve and save data.
+</summary>
+</member><member name="M:Picos_Wallet.libellesTableAdapters.TableAdapterManager.UpdateUpdatedRows(Picos_Wallet.libelles,System.Collections.Generic.List{System.Data.DataRow},System.Collections.Generic.List{System.Data.DataRow})">
+	<summary>
+Update rows in top-down order.
+</summary>
+</member><member name="M:Picos_Wallet.libellesTableAdapters.TableAdapterManager.UpdateInsertedRows(Picos_Wallet.libelles,System.Collections.Generic.List{System.Data.DataRow})">
+	<summary>
+Insert rows in top-down order.
+</summary>
+</member><member name="M:Picos_Wallet.libellesTableAdapters.TableAdapterManager.UpdateDeletedRows(Picos_Wallet.libelles,System.Collections.Generic.List{System.Data.DataRow})">
+	<summary>
+Delete rows in bottom-up order.
+</summary>
+</member><member name="M:Picos_Wallet.libellesTableAdapters.TableAdapterManager.GetRealUpdatedRows(System.Data.DataRow[],System.Collections.Generic.List{System.Data.DataRow})">
+	<summary>
+Remove inserted rows that become updated rows after calling TableAdapter.Update(inserted rows) first
+</summary>
+</member><member name="M:Picos_Wallet.libellesTableAdapters.TableAdapterManager.UpdateAll(Picos_Wallet.libelles)">
+	<summary>
+Update all changes to the dataset.
+</summary>
+</member><member name="T:Picos_Wallet.libellesTableAdapters.TableAdapterManager.UpdateOrderOption">
+	<summary>
+Update Order Option
+</summary>
+</member><member name="T:Picos_Wallet.libellesTableAdapters.TableAdapterManager.SelfReferenceComparer">
+	<summary>
+Used to sort self-referenced table's rows
+</summary>
+</member><member name="T:Picos_Wallet.libellesTableAdapters.TableAdapterManager">
+	<summary>
+TableAdapterManager is used to coordinate TableAdapters in the dataset to enable Hierarchical Update scenarios
+</summary>
+</member><member name="T:Picos_Wallet.cat1.categoriesDataTable">
+	<summary>
+Represents the strongly named DataTable class.
+</summary>
+</member><member name="T:Picos_Wallet.cat1.categoriesRow">
+	<summary>
+Represents strongly named DataRow class.
+</summary>
+</member><member name="T:Picos_Wallet.cat1.categoriesRowChangeEvent">
+	<summary>
+Row event argument class
+</summary>
+</member><member name="T:Picos_Wallet.cat1">
+	<summary>
+Represents a strongly typed in-memory cache of data.
+</summary>
+</member><member name="T:Picos_Wallet.cat1TableAdapters.categoriesTableAdapter">
+	<summary>
+Represents the connection and commands used to retrieve and save data.
+</summary>
+</member><member name="M:Picos_Wallet.cat1TableAdapters.TableAdapterManager.UpdateUpdatedRows(Picos_Wallet.cat1,System.Collections.Generic.List{System.Data.DataRow},System.Collections.Generic.List{System.Data.DataRow})">
+	<summary>
+Update rows in top-down order.
+</summary>
+</member><member name="M:Picos_Wallet.cat1TableAdapters.TableAdapterManager.UpdateInsertedRows(Picos_Wallet.cat1,System.Collections.Generic.List{System.Data.DataRow})">
+	<summary>
+Insert rows in top-down order.
+</summary>
+</member><member name="M:Picos_Wallet.cat1TableAdapters.TableAdapterManager.UpdateDeletedRows(Picos_Wallet.cat1,System.Collections.Generic.List{System.Data.DataRow})">
+	<summary>
+Delete rows in bottom-up order.
+</summary>
+</member><member name="M:Picos_Wallet.cat1TableAdapters.TableAdapterManager.GetRealUpdatedRows(System.Data.DataRow[],System.Collections.Generic.List{System.Data.DataRow})">
+	<summary>
+Remove inserted rows that become updated rows after calling TableAdapter.Update(inserted rows) first
+</summary>
+</member><member name="M:Picos_Wallet.cat1TableAdapters.TableAdapterManager.UpdateAll(Picos_Wallet.cat1)">
+	<summary>
+Update all changes to the dataset.
+</summary>
+</member><member name="T:Picos_Wallet.cat1TableAdapters.TableAdapterManager.UpdateOrderOption">
+	<summary>
+Update Order Option
+</summary>
+</member><member name="T:Picos_Wallet.cat1TableAdapters.TableAdapterManager.SelfReferenceComparer">
+	<summary>
+Used to sort self-referenced table's rows
+</summary>
+</member><member name="T:Picos_Wallet.cat1TableAdapters.TableAdapterManager">
+	<summary>
+TableAdapterManager is used to coordinate TableAdapters in the dataset to enable Hierarchical Update scenarios
+</summary>
+</member><member name="P:Picos_Wallet.My.Resources.Resources.ResourceManager">
+	<summary>
+  Retourne l'instance ResourceManager mise en cache utilisée par cette classe.
+</summary>
+</member><member name="P:Picos_Wallet.My.Resources.Resources.Culture">
+	<summary>
+  Remplace la propriété CurrentUICulture du thread actuel pour toutes
+  les recherches de ressources à l'aide de cette classe de ressource fortement typée.
+</summary>
+</member><member name="P:Picos_Wallet.My.Resources.Resources.cancel_17px">
+	<summary>
+  Recherche une ressource localisée de type System.Drawing.Bitmap.
+</summary>
+</member><member name="P:Picos_Wallet.My.Resources.Resources.login_17px">
+	<summary>
+  Recherche une ressource localisée de type System.Drawing.Bitmap.
+</summary>
+</member><member name="P:Picos_Wallet.My.Resources.Resources.login_20px">
+	<summary>
+  Recherche une ressource localisée de type System.Drawing.Bitmap.
+</summary>
+</member><member name="P:Picos_Wallet.My.Resources.Resources.ok_17px">
+	<summary>
+  Recherche une ressource localisée de type System.Drawing.Bitmap.
+</summary>
+</member><member name="P:Picos_Wallet.My.Resources.Resources.plus_20px">
+	<summary>
+  Recherche une ressource localisée de type System.Drawing.Bitmap.
+</summary>
+</member><member name="P:Picos_Wallet.My.Resources.Resources.plus_32px">
+	<summary>
+  Recherche une ressource localisée de type System.Drawing.Bitmap.
+</summary>
+</member><member name="P:Picos_Wallet.My.Resources.Resources.round_127px">
+	<summary>
+  Recherche une ressource localisée de type System.Drawing.Bitmap.
+</summary>
+</member><member name="P:Picos_Wallet.My.Resources.Resources.round_127px1">
+	<summary>
+  Recherche une ressource localisée de type System.Drawing.Bitmap.
+</summary>
+</member><member name="P:Picos_Wallet.My.Resources.Resources.tags_20px">
+	<summary>
+  Recherche une ressource localisée de type System.Drawing.Bitmap.
+</summary>
+</member><member name="P:Picos_Wallet.My.Resources.Resources.trash_15px">
+	<summary>
+  Recherche une ressource localisée de type System.Drawing.Bitmap.
+</summary>
+</member><member name="P:Picos_Wallet.My.Resources.Resources.us_dollar_20px">
+	<summary>
+  Recherche une ressource localisée de type System.Drawing.Bitmap.
+</summary>
+</member><member name="P:Picos_Wallet.My.Resources.Resources.waallet_127px">
+	<summary>
+  Recherche une ressource localisée de type System.Drawing.Bitmap.
+</summary>
+</member><member name="P:Picos_Wallet.My.Resources.Resources.wallet_127px">
+	<summary>
+  Recherche une ressource localisée de type System.Drawing.Bitmap.
+</summary>
+</member><member name="P:Picos_Wallet.My.Resources.Resources.wallet_20px">
+	<summary>
+  Recherche une ressource localisée de type System.Drawing.Bitmap.
+</summary>
+</member><member name="P:Picos_Wallet.My.Resources.Resources.Wlogin_20px">
+	<summary>
+  Recherche une ressource localisée de type System.Drawing.Bitmap.
+</summary>
+</member><member name="P:Picos_Wallet.My.Resources.Resources.Wplus_20px">
+	<summary>
+  Recherche une ressource localisée de type System.Drawing.Bitmap.
+</summary>
+</member><member name="T:Picos_Wallet.My.Resources.Resources">
+	<summary>
+  Une classe de ressource fortement typée destinée, entre autres, à la consultation des chaînes localisées.
+</summary>
+</member><member name="T:Picos_Wallet.portefeuilles.portefeuillesDataTable">
+	<summary>
+Represents the strongly named DataTable class.
+</summary>
+</member><member name="T:Picos_Wallet.portefeuilles.portefeuillesRow">
+	<summary>
+Represents strongly named DataRow class.
+</summary>
+</member><member name="T:Picos_Wallet.portefeuilles.portefeuillesRowChangeEvent">
+	<summary>
+Row event argument class
+</summary>
+</member><member name="T:Picos_Wallet.portefeuilles">
+	<summary>
+Represents a strongly typed in-memory cache of data.
+</summary>
+</member><member name="T:Picos_Wallet.portefeuillesTableAdapters.portefeuillesTableAdapter">
+	<summary>
+Represents the connection and commands used to retrieve and save data.
+</summary>
+</member><member name="M:Picos_Wallet.portefeuillesTableAdapters.TableAdapterManager.UpdateUpdatedRows(Picos_Wallet.portefeuilles,System.Collections.Generic.List{System.Data.DataRow},System.Collections.Generic.List{System.Data.DataRow})">
+	<summary>
+Update rows in top-down order.
+</summary>
+</member><member name="M:Picos_Wallet.portefeuillesTableAdapters.TableAdapterManager.UpdateInsertedRows(Picos_Wallet.portefeuilles,System.Collections.Generic.List{System.Data.DataRow})">
+	<summary>
+Insert rows in top-down order.
+</summary>
+</member><member name="M:Picos_Wallet.portefeuillesTableAdapters.TableAdapterManager.UpdateDeletedRows(Picos_Wallet.portefeuilles,System.Collections.Generic.List{System.Data.DataRow})">
+	<summary>
+Delete rows in bottom-up order.
+</summary>
+</member><member name="M:Picos_Wallet.portefeuillesTableAdapters.TableAdapterManager.GetRealUpdatedRows(System.Data.DataRow[],System.Collections.Generic.List{System.Data.DataRow})">
+	<summary>
+Remove inserted rows that become updated rows after calling TableAdapter.Update(inserted rows) first
+</summary>
+</member><member name="M:Picos_Wallet.portefeuillesTableAdapters.TableAdapterManager.UpdateAll(Picos_Wallet.portefeuilles)">
+	<summary>
+Update all changes to the dataset.
+</summary>
+</member><member name="T:Picos_Wallet.portefeuillesTableAdapters.TableAdapterManager.UpdateOrderOption">
+	<summary>
+Update Order Option
+</summary>
+</member><member name="T:Picos_Wallet.portefeuillesTableAdapters.TableAdapterManager.SelfReferenceComparer">
+	<summary>
+Used to sort self-referenced table's rows
+</summary>
+</member><member name="T:Picos_Wallet.portefeuillesTableAdapters.TableAdapterManager">
+	<summary>
+TableAdapterManager is used to coordinate TableAdapters in the dataset to enable Hierarchical Update scenarios
+</summary>
+</member><member name="T:Picos_Wallet.DataSet2.DataTable1DataTable">
+	<summary>
+Represents the strongly named DataTable class.
+</summary>
+</member><member name="T:Picos_Wallet.DataSet2.DataTable1Row">
+	<summary>
+Represents strongly named DataRow class.
+</summary>
+</member><member name="T:Picos_Wallet.DataSet2.DataTable1RowChangeEvent">
+	<summary>
+Row event argument class
+</summary>
+</member><member name="T:Picos_Wallet.DataSet2">
+	<summary>
+Represents a strongly typed in-memory cache of data.
+</summary>
+</member>
+</members>
+</doc>
